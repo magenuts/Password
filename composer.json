@@ -1,0 +1,30 @@
+{
+  "name": "magenuts/magento2-show-hide-password",
+  "description": "Switch the password to string or string to password instantly.",
+  "require": {
+    "php": "~7.0.0|7.0.2|7.0.4|~7.0.6|~7.1.0|~7.2.0|~7.3.0",
+    "magenuts/core": "^1.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Magenuts",
+      "email": "marketplace@magenuts.com",
+      "homepage": "https://magenuts.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magenuts\\Password\\": ""
+    }
+  }
+
+}

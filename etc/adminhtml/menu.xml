@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Magenuts_Password::password" title="Show/Hide Password" module="Magenuts_Password" sortOrder="60" 
+             resource="Magenuts_Password::password" parent="Magenuts_Core::menu"/>
+       
+        <add id="Magenuts_Password::configuration" title="Configuration" module="Magenuts_Password" sortOrder="10" 
+             parent="Magenuts_Password::password" action="adminhtml/system_config/edit/section/disable_password" 
+             resource="Magenuts_Password::config"/>
+    </menu>
+</config>

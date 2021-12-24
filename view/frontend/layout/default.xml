@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+         <script src="Magenuts_Password::js/password.js"/>
+         <css src="Magenuts_Password::css/password.css"/>
+   </head>
+   <body>
+      <referenceContainer name="footer-container">
+        <block class="Magenuts\Password\Block\Password" name="password.eye" as="password.eye" template="Magenuts_Password::password.phtml"/>
+      </referenceContainer>
+    </body>
+</page>
